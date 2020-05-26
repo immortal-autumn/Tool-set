@@ -57,6 +57,10 @@ Page({
             }
           })
         }
+        wx.showToast({
+          title: 'Complete!',
+          icon: 'none',
+        })
       },
       fail: res => {
         wx.showToast({
