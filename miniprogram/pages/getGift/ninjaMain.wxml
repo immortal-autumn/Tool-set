@@ -1,0 +1,15 @@
+<!--miniprogram/pages/getGift/ninjaMain.wxml-->
+<view class="container">
+
+  <view class="uploader">
+    <navigator class="uploader-text" url="register">
+      <text>注册领取账号</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator class="uploader-text" url="getGift">
+      <text>领取礼包码</text>
+    </navigator>
+  </view>
+</view>

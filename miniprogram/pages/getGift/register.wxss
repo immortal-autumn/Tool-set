@@ -1,0 +1,29 @@
+/* miniprogram/pages/lovePack/packInfo.wxss */
+
+@import "../../style/weui.wxss";
+
+.header {
+  border: 2px #4CAF50;
+  border-style: dotted;
+  text-align: center;
+}
+
+.page-section {
+  margin-top: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.submit {
+  margin-top: 20px;
+  background-color: #4CAF50; /* Green */
+  text-align: center;
+  font-size: 16px;
+  border-radius: 98rpx; 
+}
+
+.tips {
+  border: 1rpx aquamarine;
+  text-align: center;
+  color: red;
+}

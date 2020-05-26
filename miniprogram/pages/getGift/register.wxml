@@ -1,0 +1,21 @@
+<!--miniprogram/pages/lovePack/packInfo.wxml-->
+<view class="page-body">
+  <view class="page-section">
+    <view class="weui-cells__title">分组名称</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+          <input class="weui-input" maxlength="50" auto-focus placeholder="自定义分组名称" bindinput="group"/>
+      </view>
+    </view>
+
+    <view class="weui-cells__title">忍三UID</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+          <input class="weui-input" maxlength="50" auto-focus placeholder="游戏内UID" bindinput="uid"/>
+      </view>
+    </view>
+
+  <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+      disabled="{{disabled}}" bindtap="submission" hover-class="other-button-hover" class="submit"> 登记</button> 
+  </view> 
+</view>

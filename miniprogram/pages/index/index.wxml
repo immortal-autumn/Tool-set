@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 上传图片 -->
+  <view class="uploader">
+    <navigator class="uploader-text" catchtap="onGetUserInfo" url="../getGift/ninjaMain">
+      <text>忍者必须死3</text>
+    </navigator>
+  </view>
+
+  <!-- 上传图片 -->
+  <view class="uploader">
+    <navigator class="uploader-text" catchtap="onGetUserInfo" url="../info/author">
+      <text>作者信息</text>
+    </navigator>
+  </view>
+</view>
