@@ -28,7 +28,7 @@ Page({
 
   submission: function(e) {
     wx.cloud.callFunction({
-      name: 'getUsersWithGroup',
+      name: 'getFullUsersWithGroup',
       data: {
         collectionName: 'R3List',
         group: this.data.group
@@ -63,6 +63,7 @@ Page({
         })
       },
       fail: res => {
+        console.log(res)
         wx.showToast({
           title: '失败了！',
           icon: 'none'
